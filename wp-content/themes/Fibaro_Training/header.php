@@ -130,20 +130,29 @@
 
         	<div class="site-slider-slider-one">
 
-            	<div class="site-slider-slider-one-image">
+          	<div class="site-slider-slider-one-image">
+    					<img class="" src="https://training.fibaro.com.au/wp-content/themes/Fibaro_Training/images/fetimg.png">
+            </div><!-- .site-slider-slider-one-image -->
 
-					<img class="" src="https://training.fibaro.com.au/wp-content/themes/Fibaro_Training/images/fetimg.png">
+						<div class="thrv_wrapper thrv_text_element" data-css="tve-u-1660e2f3396">
+            	<h1 class="site-slider-slider-one-text-heading">
+                <p data-css="tve-u-1660e293c6c" style="text-align: center;">
+                  <?php
+                    if ( is_front_page() ) {
+                    	echo 'Welcome to the A/NZ<br>
+                      <strong>FIBARO </strong>
+                      <span data-css="tve-u-1660e2ed8d2" style="color: rgb(28, 126, 199);">Knowledge Platform</span><br>
+                      for authorised resellers';
+                    }else{
+                      echo the_title();
+                    }
+                  ?>
+                </p>
+              </h1>
+            </div>
 
-                </div><!-- .site-slider-slider-one-image -->
-
-
-
-                	<h1 class="site-slider-slider-one-text-heading">
-						<div class="thrv_wrapper thrv_text_element" data-css="tve-u-1660e2f3396"><p data-css="tve-u-1660e293c6c" style="text-align: center;">Welcome to the A/NZ<br><strong>FIBARO </strong><span data-css="tve-u-1660e2ed8d2" style="color: rgb(28, 126, 199);">Knowledge Platform</span><br>for authorised resellers</p></div>
-
-
-
-    		</div><!-- .site-slider-slider-one -->
+        </div>
+        <!-- .site-slider-slider-one -->
 
     	</div><!-- #Responsive-Container -->
 

@@ -13,7 +13,7 @@
         </div>
         <?php endif; ?>
 
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<!-- <h1 class="entry-title"><?php the_title(); ?></h1> -->
         
         <?php if ( function_exists('the_ratings') && (!of_get_option('show_rat_on_single') || of_get_option('show_rat_on_single') == 'true')) : ?>
         <div class="entry-meta">
