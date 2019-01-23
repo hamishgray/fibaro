@@ -1,7 +1,7 @@
 /*
 Theme Name: Fibaro Training
 Theme URI: https://www.themealley.com/alexandria/
-Description: HTML5 & CSS3 Responsive WordPress Business theme with business style home page layout with welcome section, 3 product/services blocks and a client quote/testimonial section. 2 logo section layout options. 2 premade (Blue, Red) ready to use color schemes/skins. 3 widget areas in footer, 1 widget area in sidebar. 2 page layouts including a full width page template. Social media icons in footer. 
+Description: HTML5 & CSS3 Responsive WordPress Business theme with business style home page layout with welcome section, 3 product/services blocks and a client quote/testimonial section. 2 logo section layout options. 2 premade (Blue, Red) ready to use color schemes/skins. 3 widget areas in footer, 1 widget area in sidebar. 2 page layouts including a full width page template. Social media icons in footer.
 Version: 2.1.3
 Author: ThemeAlley.com
 Author URI: http://www.themealley.com/
@@ -23,7 +23,7 @@ and Blueprint http://www.blueprintcss.org/
 
 /* =Fonts
 -------------------------------------------------------------- */
-
+/*
 @font-face {
     font-family: 'ChunkFiveRegular';
     src: url('skins/fonts/chunkfive/Chunkfive-webfont.eot');
@@ -61,14 +61,6 @@ and Blueprint http://www.blueprintcss.org/
 }
 
 @font-face {
-    font-family: 'Open Sans';
-src:rel "stylesheet"
-	href "http://fonts.googleapis.com/css?family=Open+Sans"
-    font-style normal;
-
-}
-
-@font-face {
     font-family: 'NobileRegular';
     src: url('skins/fonts/nobile/nobile-webfont.eot');
     src: url('skins/fonts/nobile/nobile-webfont.eot?#iefix') format('embedded-opentype'),
@@ -79,19 +71,13 @@ src:rel "stylesheet"
     font-style: normal;
 
 }
+*/
+
 
 /* =Reset
 -------------------------------------------------------------- */
 
 
-
-body.custom-background {
-background-color: #ffffff !important;
-}
-
-.site-main {
-background-color: #ffffff !important;
-}
 
 .site-branding img {
 max-width: 60% !important;
@@ -99,7 +85,7 @@ height: auto;
 }
 
 .entry-meta, .entry-meta-bottom, span.no_translate {
-	display: none !important;	
+	display: none !important;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -152,7 +138,7 @@ caption, th, td {
 	text-align: left;
 }
 td {
-	padding:1% 2%;	
+	padding:1% 2%;
 }
 .odd {
 	background:url(images/ten.png);
@@ -188,17 +174,17 @@ input,
 select,
 textarea {
 	color: #000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.75;
-	word-wrap:break-word;	
+	word-wrap:break-word;
 }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 1.25;
 }
 h1{
@@ -527,10 +513,10 @@ a:active {
 /* Containers
 ----------------------------------------------- */
 #wrapper-one{
-	width:100%;	
+	width:100%;
 }
 #wrapper-two{
-	width:100%;	
+	width:100%;
 }
 #wrapper-three{
 	width:100%;
@@ -558,7 +544,7 @@ a:active {
 }
 .site-main{
 	width:100%;
-	padding:1.5% 0; 
+	padding:1.5% 0;
 }
 .content-container{
 	width:100%;
@@ -575,11 +561,11 @@ a:active {
 }
 .site-content{
 	width:90%;
-	margin:0 5%;	
+	margin:0 5%;
 }
 .widget-area{
 	width:100%;
-	margin:5% 0 0 0;	
+	margin:5% 0 0 0;
 	float:left;
 	background:#E4E6E9;
 }
@@ -612,13 +598,13 @@ a:active {
 .footer-widget-two a:link,
 .footer-widget-two a:visited,
 .footer-widget-two a:hover{
-	color:#898989;	
+	color:#898989;
 }
 .footer-widget-three{
 	float:left;
 	width:90%;
 	padding:5%;
-	color:#898989;	
+	color:#898989;
 }
 .footer-widget-two .widget select{
 	width:90%;
@@ -642,7 +628,7 @@ a:active {
 .site-header-half-width-logo{
 	width:100%;
 	margin:0;
-	float:left;	
+	float:left;
 }
 .site-branding{
 	padding:7% 0;
@@ -655,7 +641,7 @@ a:active {
 	height:auto;
 }
 .site-title a, .site-title a:visited{
-	font-family: 'TitilliumText22LMedium';
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 60px;
 	font-size: 6.0rem;
 	color: #fff;
@@ -664,7 +650,7 @@ a:active {
 }
 .site-description{
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
@@ -679,7 +665,7 @@ a:active {
 ----------------------------------------------- */
 .tinynav { width:80%; display: block; margin:4% auto; padding:1%; background:#000000; color:#fff; border:1px solid #000; font-size:14px; font-size:1.4rem; }
 #main-nav { display: none }
-	
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -744,7 +730,7 @@ a:active {
 }
 .main-navigation li.current_page_item,
 .main-navigation li.current-menu-item {
-	background:#000;	
+	background:#000;
 }
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
@@ -768,7 +754,7 @@ a:active {
 }
 .site-slider-slider-one{
 	width:100%;
-	margin:3% 0;	
+	margin:3% 0;
 }
 .site-slider-slider-one-image{
 	float:left;
@@ -795,7 +781,7 @@ a:active {
 	text-shadow: 1px 1px #000000;
 	color:#fff;
 	line-height:1.0;
-	font-family:'TitilliumText22LMedium';
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 .site-slider-slider-one-text-description{
 	width:86%;
@@ -811,18 +797,18 @@ a:active {
 	width:86%;
 	margin:0 7% 0 7%;
 	padding:0 0 40px 0;
-	text-align:center;	
+	text-align:center;
 }
 .site-slider-slider-one-text-button a{
 	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	font-size:2.4rem;
-	color:#fff;	
+	color:#fff;
 	border-bottom: 4px solid #000000;
 	background:#333437;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;	
+	border-radius: 5px;
     display: inline-block;
     padding: 15px 50px;
 	line-height:1.0;
@@ -853,7 +839,7 @@ a:active {
 	background:#c3c5c7;
 	padding:0.2em 1.0em;
 	margin:0.5em 0.5em 0.5em 0;
-	display:inline-block;	
+	display:inline-block;
 }
 .page-links {
 	clear: both;
@@ -884,10 +870,10 @@ a:active {
 .entry-meta{
 	margin:0;
 	padding:0.5em 0;
-	border-bottom:1px solid #dddfe2;	
+	border-bottom:1px solid #dddfe2;
 }
 .entry-meta a{
-	font-weight:600;	
+	font-weight:600;
 }
 .entry-meta-bottom{
 	border-top:1px solid #dddfe2;
@@ -903,7 +889,7 @@ a:active {
 	margin:0 0.5em 0.5em 0;
 	display:inline-block;
 	font-size: 12px;
-	font-size: 1.2rem;		
+	font-size: 1.2rem;
 }
 
 
@@ -990,7 +976,7 @@ object {
 	padding:1.5em 0;
 }
 .post-navigation .nav-previous{
-	background:url(images/single_np_prev.png) no-repeat left;	
+	background:url(images/single_np_prev.png) no-repeat left;
 	min-height:74px;
 	width:100%;
 	margin:2% 0;
@@ -999,7 +985,7 @@ object {
 	background:url(images/single_np_next.png) no-repeat right;
 	min-height:74px;
 	width:100%;
-	margin:2% 0;		
+	margin:2% 0;
 }
 .post-navigation .nav-previous a{
 	margin:0 0 0 50px;
@@ -1059,11 +1045,11 @@ object {
 }
 .comments-title{
 	width:90%;
-	margin:2% 5%;	
+	margin:2% 5%;
 }
 .comment-navigation{
 	width:90%;
-	margin:5% 5% !important;	
+	margin:5% 5% !important;
 }
 .comment-navigation .nav-previous a{
 	background:#c3c5c7;
@@ -1077,13 +1063,13 @@ object {
 }
 .comment-list{
 	margin:2% 0;
-	list-style:none;	
+	list-style:none;
 }
 .comment, .pingback, .trackback, .no-comments{
 	background:url(images/comments.png);
 	padding:4% 0;
 	width:90%;
-	margin:4% 5% 0 5%;	
+	margin:4% 5% 0 5%;
 }
 .comment-body{
 	width:90%;
@@ -1107,7 +1093,7 @@ object {
 	font-size: 1.2rem;
 }
 .comment-author-image{
-		
+
 }
 .comment-author-image img{
 	max-width:100%;
@@ -1129,11 +1115,11 @@ object {
 	padding:0.4em 2.0em;
 }
 .comment-list ul{
-	list-style:none;	
+	list-style:none;
 }
 .comment-respond{
 	width:90%;
-	margin:7% 5% 2% 5%;	
+	margin:7% 5% 2% 5%;
 }
 .comment-content a {
 	word-wrap: break-word;
@@ -1163,7 +1149,7 @@ object {
 .widget ul li{
 	margin: 0 0 0 1.0em;
 	border-bottom:1px solid #d0d2d5;
-	padding:0.3em 0;	
+	padding:0.3em 0;
 }
 .widget ul li a{
 	text-decoration:none;
@@ -1171,12 +1157,12 @@ object {
 }
 .widget ul li ul {
 	margin: 0 0 0.3em 0;
-	padding:0.3em 0;	
+	padding:0.3em 0;
 }
 .widget ul li ul li{
 	margin: 0 0 0 1.0em;
 	padding:0.3em 0;
-	border-bottom:0;	
+	border-bottom:0;
 }
 .search-field{
 	width:95%;
@@ -1212,7 +1198,7 @@ object {
 	margin: 0 0 0.5em 0;
 	color:#B0B5BB;
 	font-size:18px;
-	font-size:1.8rem;	
+	font-size:1.8rem;
 }
 .site-footer .widget ul {
 	margin: 0 0 1.5em 0;
@@ -1221,7 +1207,7 @@ object {
 .site-footer .widget ul li{
 	margin: 0;
 	border-bottom:1px solid #151618;
-	padding:0.3em 0;	
+	padding:0.3em 0;
 }
 .site-footer .widget ul li a{
 	text-decoration:none;
@@ -1229,12 +1215,12 @@ object {
 }
 .site-footer .widget ul li ul {
 	margin: 0 0 0.3em 0;
-	padding:0.3em 0;	
+	padding:0.3em 0;
 }
 .site-footer .widget ul li ul li{
 	margin: 0 0 0 1.0em;
 	padding:0.3em 0;
-	border-bottom:0;	
+	border-bottom:0;
 }
 .site-footer .search-field{
 	background:#2F2F2F !important;
@@ -1307,7 +1293,7 @@ object {
 	width:86%;
 	margin:0 7%;
 	background:#FFFFFF;
-	/* background:#E4E6E9; */	
+	/* background:#E4E6E9; */
 }
 .biz0ne-products-services-img img{
 	max-width:100%;
@@ -1316,7 +1302,7 @@ object {
 .biz0ne-products-services-name{
 	width:86%;
 	margin:0 7%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size:36px;
 	font-size:3.6rem;
  text-align: center;
@@ -1338,7 +1324,7 @@ text-align: center;
 	width:90%;
 	float:left;
 	margin:0 5% 15px 5%;
-	background:url(images/quote.png) top left no-repeat;		
+	background:url(images/quote.png) top left no-repeat;
 }
 .biz0ne-quote-text p{
 	margin:0 0 0 100px;
@@ -1347,7 +1333,7 @@ text-align: center;
 	width:86%;
 	float:left;
 	margin:0 7% 0 7%;
-	text-align:right;	
+	text-align:right;
 }
 .biz0ne-quote-name span{
 	padding:0.4em 2.0em;
@@ -1362,7 +1348,7 @@ text-align: center;
 }
 .biztwo-products-container{
 	float:left;
-	width:100%;	
+	width:100%;
 }
 .biztwo-welcome{
 	width:90%;
@@ -1397,15 +1383,15 @@ text-align: center;
 }
 .biztwo-products-services-content{
 	float:left;
-	width:100%;	
+	width:100%;
 }
 .biztwo-products-services-name{
 	width:86%;
 	margin:0 auto 10px auto;
 	text-align:left;
-	font-family: 'TitilliumText22LRegular', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size:36px;
-	font-size:3.6rem;	
+	font-size:3.6rem;
 }
 .biztwo-products-services-description{
 	width:86%;
@@ -1423,7 +1409,7 @@ text-align: center;
 	width:90%;
 	float:left;
 	margin:0 5% 15px 5%;
-	background:url(images/quote.png) top left no-repeat;		
+	background:url(images/quote.png) top left no-repeat;
 }
 .biztwo-quote-text p{
 	margin:0 0 0 100px;
@@ -1432,7 +1418,7 @@ text-align: center;
 	width:86%;
 	float:left;
 	margin:0 7% 0 7%;
-	text-align:right;	
+	text-align:right;
 }
 .biztwo-quote-name span{
 	padding:0.4em 2.0em;
@@ -1442,7 +1428,7 @@ text-align: center;
 
 .biztwo-portfolio-container{
 	float:left;
-	width:100%;	
+	width:100%;
 }
 .biztwo-portfolio{
 	width:90%;
@@ -1451,7 +1437,7 @@ text-align: center;
 	min-height:300px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;		
+	border-radius: 5px;
 }
 .biztwo-portfolio-heading{
 	width:90%;
@@ -1460,10 +1446,10 @@ text-align: center;
 	font-size:36px;
 	font-size:3.6rem;
 	text-align:left;
-	font-family: 'TitilliumText22LRegular', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	-webkit-border-radius: 5px 5px 0 0;
 	-moz-border-radius: 5px 5px 0 0;
-	border-radius: 5px 5px 0 0;		
+	border-radius: 5px 5px 0 0;
 	margin:0 0 20px 0;
 }
 .biztwo-portfolio-item{
@@ -1471,16 +1457,16 @@ text-align: center;
 }
 .biztwo-portfolio-item-image{
 	width:86%;
-	margin:0 auto;	
+	margin:0 auto;
 }
 .biztwo-portfolio-item-image img{
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 .biztwo-portfolio-item-name{
 	width:90%;
 	margin:0 auto;
-	text-align:center;	
+	text-align:center;
 }
 
 /* Social Section
@@ -1503,7 +1489,7 @@ text-align: center;
 .site-info h3{
 	font-size:48px;
 	font-size:4.8rem;
-	font-family:'Open Sans';
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;;
 	line-height:1.1;
 	width:86%;
 	margin:0 7%;
@@ -1555,15 +1541,15 @@ text-align: center;
 }
 .wpcf7-date{
 	background:#e0e2e5 !important;
-	border:3px solid #d8d9dc !important;	
+	border:3px solid #d8d9dc !important;
 }
 .wpcf7-number{
 	background:#e0e2e5 !important;
-	border:3px solid #d8d9dc !important;	
+	border:3px solid #d8d9dc !important;
 }
 .wpcf7-captchar{
 	background:#e0e2e5 !important;
-	border:3px solid #d8d9dc !important;	
+	border:3px solid #d8d9dc !important;
 }
 .wpcf7-submit{
 	background:#000 !important;
@@ -1577,7 +1563,7 @@ text-align: center;
 ----------------------------------------------- */
 
 /* styles for less than 400px */
-@media screen 
+@media screen
 and (max-width : 399px) {
 .site-header-half-width-nav{
 	margin-bottom: 2.5%;
@@ -1587,20 +1573,20 @@ and (max-width : 399px) {
 }
 
 /* styles for 400px - 600px */
-@media screen 
-and (min-width : 400px) 
+@media screen
+and (min-width : 400px)
 and (max-width : 599px) {
 .site-header-half-width-nav{
 	margin-bottom: 2.5%;
 
 }
-	
+
 }
 
 
 /* styles for 600px - 900px */
-@media screen 
-and (min-width : 600px) 
+@media screen
+and (min-width : 600px)
 and (max-width : 900px) {
 
 .site-branding{
@@ -1615,7 +1601,7 @@ and (max-width : 900px) {
 
 
 /* styles for 901px - 1200px */
-@media screen 
+@media screen
 and (min-width : 901px) {
 
 .responsive-container{
@@ -1625,7 +1611,7 @@ and (min-width : 901px) {
 .site-header-half-width-logo{
 	width:38%;
 	margin:0.5% 3%;
-	float:left;	
+	float:left;
 }
 .site-header-half-width-logo .site-title, .site-header-half-width-logo .site-description{
 	text-align:left;
@@ -1655,7 +1641,7 @@ and (min-width : 901px) {
 .site-slider-slider-one-text{
 	float:left;
 	width:46%;
-	margin:0 2%;	
+	margin:0 2%;
 }
 .site-slider-slider-one-text-heading{
 	text-align:left;
@@ -1664,7 +1650,7 @@ and (min-width : 901px) {
 	text-align:left;
 }
 .site-slider-slider-one-text-button{
-	text-align:left;	
+	text-align:left;
 }
 .content-area{
 	width:100%;
@@ -1673,15 +1659,15 @@ and (min-width : 901px) {
 }
 .site-content{
 	width:100%;
-	margin:0;	
+	margin:0;
 }
 .paging-navigation .nav-previous{
 	width:50%;
-	margin:0;	
+	margin:0;
 }
 .paging-navigation .nav-next{
 	width:50%;
-	margin:0;	
+	margin:0;
 }
 .post-navigation .nav-previous{
 	width:50%;
@@ -1692,12 +1678,12 @@ and (min-width : 901px) {
 .widget-area{
 	display: none;
 	width:32%;
-	margin:2% 2% 2% 0;	
+	margin:2% 2% 2% 0;
 	float:left;
 }
 .biz0ne-products-services-item{
 	float:left;
-	width:33.33%;	
+	width:33.33%;
 	margin:0;
 }
 .biz0ne-quote{
@@ -1705,7 +1691,7 @@ and (min-width : 901px) {
 }
 .biztwo-products-container{
 	float:left;
-	width:66%;	
+	width:66%;
 }
 .biztwo-welcome h1{
 	text-align:left;
@@ -1716,11 +1702,11 @@ and (min-width : 901px) {
 }
 .biztwo-products-services-content{
 	float:left;
-	width:60%;	
+	width:60%;
 }
 .biztwo-portfolio-container{
 	float:left;
-	width:34%;	
+	width:34%;
 }
 .site-info{
 	width:40%;

@@ -1,0 +1,363 @@
+/*
+-* FIBARO THEME V2 STYLING
+-* #0090FF
+===================================*/
+
+
+body.custom-background {
+  background: #ffffff !important;
+}
+
+.site-main {
+  background-color: #ffffff !important;
+}
+
+/* ====================================
+  PAGE BANNER
+------------------------------------ */
+
+.site-header {
+  width: 100%;
+  position: relative;
+}
+.site-header .site-header__gradient {
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://training.fibaro.com.au/wp-content/themes/Fibaro_Training/images/gradient.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+}
+.site-header__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* Logo */
+.site-branding { padding: 5% 0; }
+.site-branding img { display: block; width: 420px; max-width: 100% !important; }
+@media screen and (max-width : 1080px) {
+  .site-branding { padding-left: 30px; }
+}
+
+/* Layout */
+.site-header-half-width-logo {
+  width: auto;
+  margin: 0;
+}
+
+@media screen and (min-width : 720px) {
+  .site-header-half-width-nav {
+    width: auto; float: right;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width : 1080px) {
+  .site-header-half-width-logo { width: 100%; text-align: center; }
+  .site-header-half-width-nav { width: 100%; text-align: center; border-top: 1px solid #eeeeee; }
+  .site-branding { padding: 20px 0 10px; margin: auto; display: inline-block; }
+}
+
+/* Site slider */
+.site-slider {
+  padding: 50px 0;
+  margin-bottom: 30px;
+  background: url('https://training.fibaro.com.au/wp-content/uploads/2018/09/header-manuals.jpg') !important;
+}
+.site-slider-slider-one-text-heading {
+  font-size: 56px !important;
+  font-weight: 200;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif !important;
+  margin: 7%;
+  padding: 0;
+  text-align: center;
+}
+
+
+/* ====================================
+  NAVIGATION
+------------------------------------ */
+
+/* Main navigation */
+
+.main-navigation {
+  padding: 3.75% 0;
+}
+@media screen and (max-width : 900px) {
+  .main-navigation {
+    padding: 0;
+  }
+}
+.main-navigation a {
+  color: #333333;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.main-navigation ul li {
+  padding: 0.3em 1em;
+  margin: 0; margin-bottom: 0;
+  font-weight: 300;
+  background-color: transparent;
+}
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a,
+.main-navigation li.current_page_item,
+.main-navigation li.current-menu-item {
+  color: #0090FF;
+  font-weight: 500;
+  background-color: transparent;
+}
+.main-navigation li:hover {
+  color: #0090FF !important;
+  background-color: transparent;
+}
+.main-navigation li:hover > a { color: #0090FF !important; }
+.main-navigation li:after {
+  content: "";
+  background-color: transparent;
+  width: 40%;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+  bottom: 0;
+}
+.main-navigation li:hover:after {
+  background-color: #0090FF;
+}
+
+/* Sub navigation menu */
+
+.main-navigation ul.sub-menu {
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.main-navigation ul.sub-menu li {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0;
+  margin: 0;
+  padding: 0.5em 1em;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+.main-navigation ul.sub-menu li:hover:after { content: none; }
+.main-navigation ul.sub-menu li:hover { background-color: rgba(0, 0, 0, 0.9); }
+.main-navigation ul.sub-menu li:first-child { border-top: 0px; }
+
+.main-navigation ul.sub-menu li a {
+  text-transform: none;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+.main-navigation ul.sub-menu li:hover a { color: #ffffff !important; }
+
+
+
+/* ====================================
+  TYPOGRAPHY
+------------------------------------ */
+
+body { font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif; }
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+h1,h2,h3,h4 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+p { color: #585858; }
+p + h1, p + h2,
+p + h3, p + h4 { margin-top: 30px;}
+
+h1 { font-size: 56px; font-size: 5.6rem; }
+h2 { font-size: 48px; font-size: 4.8rem; }
+h3 { font-size: 36px; font-size: 3.6rem; }
+h4 { font-size: 30px; font-size: 3.0rem; }
+h5 { font-size: 24px; font-size: 2.4rem; }
+h6 { font-size: 20px; font-size: 2.0rem; }
+
+a { color: #0090FF; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  padding: 1.2em 3em;
+  font-size: 14px; font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: transparent;
+  color: #0090FF;
+  text-shadow: none;
+  border-radius: 4px;
+  border: 1px solid #0090FF;
+}
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background: #0090FF;
+  color: #ffffff;
+  box-shadow: none;
+  border-color: #0090FF;
+}
+#sfwd-mark-complete { text-align: center;}
+
+
+
+/* ====================================
+  WP TILES NAVIGATION
+------------------------------------ */
+
+.wp-tiles-container { margin-top: 20px; margin-bottom: 10px; }
+.wp-tiles-loaded .wp-tiles-tile-bg {
+  border: 0;
+}
+.wp-tiles-tile {
+  transform: scale(1);
+  transition: 500ms;
+  background-color: transparent !important;
+}
+.wp-tiles-tile:hover { transform: scale(1.05); }
+
+
+
+
+/* ====================================
+  COURSES
+------------------------------------ */
+
+#learndash_lessons, #learndash_quizzes,
+#learndash_profile, #learndash_lesson_topics_list > div { box-shadow: none; }
+
+#learndash_lessons a,
+#learndash_quizzes a,
+#learndash_lesson_topics_list span a,
+#learndash_profile a, #learndash_profile a span,
+.expand_collapse a, .learndash_topic_dots a, .learndash_topic_dots a > span {
+  color: #0090FF;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#learndash_lessons #lesson_heading,
+#learndash_profile .learndash_profile_heading,
+#learndash_quizzes #quiz_heading,
+#learndash_lesson_topics_list div > strong {
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 0 !important;
+}
+
+#learndash_profile div { font-size: 13px; }
+#learndash_profile .learndash-course-link a,
+#lessons_list > div h4 > a,
+#course_list > div h4 > a,
+#quiz_list > div h4 > a,
+#learndash_lesson_topics_list .learndash_topic_dots a > span { font-size: 20px; font-weight: 300; }
+
+#learndash_profile .learndash_profile_heading,
+#learndash_lessons #lesson_heading,
+#learndash_lesson_topics_list div > strong {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+#learndash_course_content_title { margin-bottom: 30px; }
+#learndash_profile .learndash_profile_heading.course_overview_heading {
+  text-transform: none; letter-spacing: 0;
+}
+#learndash_lessons h4 > a:hover,
+#learndash_quizzes h4 > a:hover,
+#learndash_lesson_topics_list ul > li > span.topic_item:hover { background-color: #ececec; }
+.learndash_topic_dots ul a.topic-completed span,
+.learndash_topic_dots ul a.topic-notcompleted span { margin: 15px 0; }
+
+dd.course_progress div.course_progress_blue { background-color: #0090FF; }
+
+#learndash_lessons .right, #learndash_quizzes .right,
+#learndash_profile .learndash_profile_heading .ld_profile_status,
+#learndash_profile .learndash-course-status { width: 70px; }
+
+.learndash-pager { text-align: center; }
+.learndash-pager span.pager-left,
+.learndash-pager span.pager-right { float: none; display: inline-block; }
+.learndash-pager .pager-legend { float: none; display: block; margin: auto; padding-top: 10px; }
+
+.learndash-pager a {
+  padding: 4px 16px 6px;
+  font-size: 24px;
+  background-color: #ffffff;
+}
+.learndash-pager a.disabled { opacity: 1; background-color: #eeeeee; color: #bbbbbb; }
+
+.learndash-pager .pager-legend .pagedisplay {
+  float: none;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.learndash_content {
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+
+/* LESSONS */
+.learndash .learndash_topic_dots.type-dots {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.learndash_topic_dots.type-dots a { font-size: 24px; }
+.learndash .learndash_topic_dots.type-dots span {
+  height: 24px;
+  min-height: 24px;
+  width: 24px;
+  background: #dfdfdf;
+  overflow: hidden;
+  border-radius: 50%;
+  padding-left: 0;
+  margin-right: 5px;
+}
+.learndash .learndash_topic_dots.type-dots .topic-completed span {
+  background: #0090FF;
+}
+#learndash_back_to_lesson { margin-top: 15px; }
+#learndash_back_to_lesson a { font-weight: 600; color: #0090FF; }
+
+
+/* ====================================
+  QUIZZES
+------------------------------------ */
+
+.wpProQuiz_content .wpProQuiz_time_limit { position: relative; }
+.wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+  background-color: #0090FF;
+}
+.wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress:after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 100%; left: 0;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.wpProQuiz_content .wpProQuiz_questionList,
+.wpProQuiz_content .wpProQuiz_matrixSortString {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.wpProQuiz_content .wpProQuiz_questionListItem input { margin-right: 10px; }
+.wpProQuiz_content .wpProQuiz_sortable, .wpProQuiz_sortStringItem {
+  padding: 5px 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+}
+.wpProQuiz_content .wpProQuiz_resultValue div { box-shadow: none; }
