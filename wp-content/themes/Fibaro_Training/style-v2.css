@@ -40,7 +40,7 @@ body.custom-background {
 
 /* Logo */
 .site-branding { padding: 5% 0; }
-.site-branding img { display: block; width: 420px; max-width: 100% !important; }
+.site-branding img { display: block; width: 380px; max-width: 100% !important; }
 @media screen and (max-width : 1080px) {
   .site-branding { padding-left: 30px; }
 }
